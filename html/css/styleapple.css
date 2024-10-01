@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in;
+    list-style-type: none;
+    text-decoration: none;
+font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.854);
+    padding: 12px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 14px;
+}
+a{
+    color: white;
+}
+.main{
+    width: 100%;
+    height: 600px;
+    background: url("https://www.apple.com/v/apple-vision-pro/b/images/meta/apple-vision-pro__cctkg4nhnb7m_og.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main, .main2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p{
+    margin-top: 490px;
+    font-size: 30px;
+}
+.main2{
+    width: 100%;
+    height: 700px;
+    background: url("https://www.lux.camera/content/images/size/w1000/2023/10/hero-4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+}
+.p2{
+   font-size: 30px;
+   color: white;
+   margin-top: -530px;
+}
+.p2 a{
+    color:#1E88E5;
+    font-size: 19px;
+    padding: 30px;
+}
+.main3{
+    width: 100%;
+    height: 500px;
+    background: url(https://akm-img-a-in.tosshub.com/businesstoday/images/story/202310/84-85-merged-2-sixteen_nine.jpg?size=948:533);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 400px;
+}
+.p3{
+    font-size: 30px;
+    color: black;
+    margin-top: -330px;
+ }
+ .p3 a , .c2 a , .c1 a,.c3 a{
+     color:#1E88E5;
+     font-size: 19px;
+     padding: 30px;
+ }
+ .c4 a{
+    color: #1E88E5;
+    font-size: 19px;
+ }
+.menu li a:hover{
+    color: white;
+}
+.li1 , .li2 , .li3 , .li4 , .li5,.li6,.li7,.li8{
+    position: relative;
+}
+.ul2{
+    display: none;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.627);
+    margin-top: 0px;
+    padding: 55px;
+    width:2000px;
+    left: -150px;
+    border-radius: 3px;
+
+}
+.ul1{
+    display: none;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.627);
+    margin-top: 0px;
+    padding: 55px;
+    width:2000px;
+    left: -80px;
+    border-radius: 3px;
+
+}
+.ul3{
+    display: none;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.627);
+    margin-top: 0px;
+    padding: 55px;
+    width:2000px;
+    left: -200px;
+    border-radius: 3px;
+
+}
+.ul4{
+    display: none;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.627);
+    margin-top: 0px;
+    padding: 55px;
+    width:2000px;
+    left: -280px;
+    border-radius: 3px;
+
+}
+.ul5{
+    display: none;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.627);
+    margin-top: 0px;
+    padding: 55px;
+    width:2000px;
+    left: -350px;
+    border-radius: 3px;
+
+}
+.ul6{
+    display: none;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.627);
+    margin-top: 0px;
+    padding: 55px;
+    width:2000px;
+    left: -470px;
+    border-radius: 3px;
+
+}
+.ul7{
+    display: none;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.627);
+    margin-top: 0px;
+    padding: 55px;
+    width:2000px;
+    left: -550px;
+    border-radius: 3px;
+
+}
+.ul8{
+    display: none;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.627);
+    margin-top: 0px;
+    padding: 55px;
+    width:2000px;
+    left: -650px;
+    border-radius: 3px;
+
+}
+.li1:hover .ul1{
+    display:flex;
+    gap: 118px;
+}
+.li2:hover .ul2{
+    display: flex;
+    gap: 118px;
+}
+.li3:hover .ul3{
+    display: flex;
+    gap: 118px;
+}
+.li4:hover .ul4,.li8:hover .ul8{
+    display: flex;
+    gap: 118px;
+}
+.li5:hover .ul5 ,.li6:hover .ul6,.li7:hover .ul7{
+    display: flex;
+    gap: 118px;
+}
+.div11 , .div12 , .div13 , .div14 , .div15,.div17,.div18{
+    font-size: 28px;
+    margin: 18px;
+}
+.div16{
+    font-size: 23px;
+    margin: 18px;
+}
+.div21 , .div31 , .div22 , .div32 , .div23 , .div33 , .div24 , .div34 ,.div25,.div35,.div26,.div36,.div27,.div37,.div28{
+    font-size: 18px;
+    margin: 18px;
+}
+.dc1{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.c1{
+    background-color: black;
+    align-items: center;
+    padding: 10px;
+    width: 500px;
+}
+.c2{
+    background-color: rgb(247, 247, 247);
+    padding: 10px;
+    width: 500px;
+}
+.c3 , .c4{
+    background-color: white;
+    padding: 10px;
+    width: 500px;
+}
+.s1 ,.s2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.prg{
+    background-color: rgb(242, 242, 242);
+    font-size: 13px;
+    color: rgb(142, 142, 142);
+    padding: 15px;
+}
+.line{
+    background-color: rgb(242, 242, 242);
+    color: rgb(142, 142, 142);
+}
+ul.f1 a{
+    color: rgb(142, 142, 142);
+    font-size: 12px;
+}
+ul.f2 a{
+    color: rgb(142, 142, 142);
+    font-size: 12px;
+}
+ul.f3 a{
+    color: rgb(142, 142, 142);
+    font-size: 12px;
+}
+ul.f4 a{
+    color: rgb(142, 142, 142);
+    font-size: 12px;
+}
+ul.f5 a{
+    color: rgb(142, 142, 142);
+    font-size: 12px;
+}
+.footer{
+    background-color: rgb(242, 242, 242);
+}
+ul.f1 li{
+    padding: 5px;
+    text-align: center;
+}
+ul.f2 li{
+    padding: 5px;
+    text-align: center;
+}
+ul.f3 li{
+    padding: 5px;
+    text-align: center;
+}
+ul.f4 li{
+    padding: 5px;
+    text-align: center;
+}
+ul.f5 li{
+    padding: 5px;
+    text-align: center;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 90px;
+}
+ul.f2{
+    margin-top: -80px;
+}
+ul.f3{
+    margin-top: -135px;
+}
+ul.f4{
+    margin-top: -88px;
+}
+ul.f5{
+    margin-top: -33px;
+}
+.ft{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 13px;
+}

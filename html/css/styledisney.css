@@ -1,0 +1,121 @@
+*{
+    padding: 1px;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'myfont'; */
+    transition: all 0.3s ease-in-out;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+body{
+    background-color:#d5d4d4
+}
+.top-hd,.left-hd,.right-hd{
+    display: flex;
+    align-items: center;
+    background-color:white;
+    padding: 10px;
+    gap: 20px;
+
+}
+ul.mn{
+    display: flex;
+    gap: 30px;
+    
+}
+.logo2{
+    width: 70px;
+}
+.top-hd{
+    justify-content: space-between;
+}
+.search1 input,.search1 button{
+    border: none;
+    background-color:rgb(237, 237, 237);
+    padding: 5px;
+}
+.search1 input{
+    border-radius: 10px 0 0 10px;
+    outline: none;
+}
+.search1 button {
+    border-radius: 0 10px 10px 0;
+    background-color:rgb(237, 237, 237);
+}
+.search1{
+    display: flex;
+
+}
+.box{
+    width: 100%;
+    height: 500px;
+    background: url(https://lumiere-a.akamaihd.net/v1/images/eu_xx_indiana-jones-5_c169_r_v2_9e1f2761.jpeg?region=0,0,1460,823&width=960);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.btn{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 40px;
+    text-align: center;
+}
+.abox{
+    padding: 0 40px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px;
+}
+.tx{
+    color: #FB8C00;
+    font-size: 68px;
+    font-style:oblique;
+}
+.bbox{
+    display: flex;
+    justify-content:space-around;
+}
+.fimg{
+    width: 500px;
+    margin-top: 130px;
+}
+.simg{
+    width: 500px;
+    margin-top: 130px;
+    height: 282px;
+}
+.tex{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 200px;
+    justify-content:space-around;
+}
+.ft{
+    display: flex;
+   gap: 13px;
+    background-color: white;
+    justify-content: center;
+    font-size:13px;
+   
+}
+.nav{
+    background-color: white;
+}
+.l{
+    width: 90px;
+   
+}
+.mr,.inside{
+   padding: 70px;
+
+}
+.movies1,.movies2{
+    border-radius: 10px;
+}
